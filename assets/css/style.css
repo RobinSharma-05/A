@@ -381,6 +381,26 @@ nav {
     transform: scale(1.1);
 }
 
+.preloader-box {
+    min-height: 100vh;
+    width: 100%;
+    top: 0;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    background-color: #0F171F;
+    position: fixed;
+    z-index: 100;
+}
+
+.loder-img {
+    animation: rotation 4s linear infinite;
+}
+
+html body {
+    scroll-behavior: smooth !;
+}
+
 @media (max-width:991px) {
     .position-11-btn {
         right: -78% !important;
@@ -410,20 +430,4 @@ nav {
         bottom: 10px;
         transition: all 300ms linear;
     }
-}
-
-.preloader-box {
-    min-height: 100vh;
-    width: 100%;
-    top: 0;
-    display: flex;
-    -webkit-box-align: center;
-    align-items: center;
-    background-color: #0F171F;
-    position: fixed;
-    z-index: 100;
-}
-
-.loder-img {
-    animation: rotation 4s linear infinite;
 }
