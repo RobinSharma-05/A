@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Karla:wght@300;400;500;600;700&display=swap');
+
+:root {
+    --ff-family-inter: 'inter',
+        sans-serif;
+    --ff-family-karla: 'karla',
+        sans-serif;
+
+    --fs-xxxxl: 42px;
+    --fs-xxxl: 40px;
+    --fs-xll: 32px;
+    --fs-ll: 34px;
+    --fs-xxl: 23px;
+    --fs-xl: 22px;
+    --fs-xlg: 20px;
+    --fs-mlg: 18px;
+    --fs-lg: 16px;
+    --fs-md: 15px;
+    --fs-sm: 13px;
+    --fs-s: 12px;
+    --fs-vs: 10px;
+
+
+    --font-weight-xxl: 700;
+    --font-weight-xl: 600;
+    --font-weight-lg: 500;
+    --font-weight-md: 400;
+    --font-weight-sm: 300;
+}
+
+.ff-karla {
+    font-family: var(--ff-family-karla);
+}
+
+.ff-inter {
+    font-family: var(--ff-family-inter);
+}
+
+.fw-300 {
+    font-weight: var(--font-weight-sm);
+}
+
+.fw-400 {
+    font-weight: var(--font-weight-md);
+}
+
+.fw-500 {
+    font-weight: var(--font-weight-lg) !important;
+}
+
+.fw-600 {
+    font-weight: var(--font-weight-xl);
+}
+
+.fw-700 {
+    font-weight: var(--font-weight-xxl);
+}
+
+.fs-10 {
+    font-size: var(--fs-vs);
+}
+
+.fs-13 {
+    font-size: var(--fs-sm) !important;
+}
+
+.fs-12 {
+    font-size: var(--fs-s);
+}
+
+.fs-15 {
+    font-size: var(--fs-md);
+}
+
+.fs-16 {
+    font-size: var(--fs-lg);
+}
+
+.fs-18 {
+    font-size: var(--fs-mlg);
+}
+
+.fs-20 {
+    font-size: var(--fs-xlg);
+}
+
+.fs-22 {
+    font-size: var(--fs-xl);
+}
+
+.fs-23 {
+    font-size: var(--fs-xxl);
+}
+
+.fs-32 {
+    font-size: var(--fs-xll);
+}
+
+.fs-34 {
+    font-size: var(--fs-ll);
+}
+
+.fs-40 {
+    font-size: var(--fs-xxxl);
+}
+
+.fs-42 {
+    font-size: var(--fs-xxxxl);
+}
+
+@media (max-width:992px) {
+    :root {
+        --fs-xxxxl: 40px;
+        --fs-xxxl: 38px;
+        --fs-xll: 32px;
+        --fs-ll: 34px;
+        --fs-xxl: 23px;
+        --fs-xl: 22px;
+        --fs-xlg: 20px;
+        --fs-mlg: 18px;
+        --fs-lg: 16px;
+        --fs-md: 15px;
+        --fs-sm: 13px;
+        --fs-s: 12px;
+        --fs-vs: 10px;
+    }
+}
+
+@media (max-width:768px) {
+    :root {
+        --fs-xxxxl: 38px;
+        --fs-xxxl: 36px;
+        --fs-xll: 28px;
+        --fs-ll: 29px;
+        --fs-xxl: 21px;
+        --fs-xl: 20px;
+        --fs-xlg: 18px;
+        --fs-mlg: 16px;
+        --fs-lg: 15px;
+        --fs-md: 14px;
+        --fs-sm: 13px;
+        --fs-s: 12px;
+        --fs-vs: 10px;
+    }
+}
+
+@media (max-width:768px) {
+    :root {
+        --fs-xxxxl: 36px;
+        --fs-xxxl: 34px;
+        --fs-xll: 22px;
+        --fs-ll: 23px;
+        --fs-xxl: 20px;
+        --fs-xl: 19px;
+        --fs-xlg: 17px;
+        --fs-mlg: 15px;
+        --fs-lg: 14px;
+        --fs-md: 13px;
+        --fs-sm: 12px;
+        --fs-s: 11px;
+        --fs-vs: 9px;
+    }
+}

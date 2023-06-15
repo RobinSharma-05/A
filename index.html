@@ -1,0 +1,937 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aleph zero</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/root.css">
+    <link rel="icon" href="./assets/images/svg/a-icon.svg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"
+        integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+        integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body class="overflow-hidden">
+    <div class="overflow-hidden">
+        <div id="box" class="overflow-hidden">
+            <div class="preloader-box">
+                <img class="mx-auto loder-img circle-rotate" src="./assets/images/svg/logo-image.svg"
+                    alt="logo-image" />
+            </div>
+        </div>
+
+        <nav class="navbar navbar-expand-lg bg-color ps-2 pe-2">
+            <div class="container-fluid" data-aos="fade-down" data-duration="1000" data-aos-delay="100">
+                <a class="navbar-brand d-flex align-items-center gap-2" href="#">
+                    <img src="./assets/images/svg/logo-image.svg" alt="logo" class="w-75">
+                </a>
+                <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto gap-4 align-items-center">
+                        <li class="nav-item">
+                            <a class="ff-karla fw-300 fs-16 hover-line" href="#featured">Explore</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="ff-karla fw-300 fs-16 hover-line" href="#build">Build</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="ff-karla fw-300 fs-16 hover-line" href="#community">Community</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="ff-karla fw-300 fs-16 hover-line" href="#content">Content</a>
+                        </li>
+                    </ul>
+                    <div>
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 gap-3 align-items-center">
+                            <li class="nav-item">
+                                <a class="nav-link btn-1 ff-inter fw-500 fs-13" href="#">Explore the ecosystem</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </nav>
+
+        <section class="bg-color mt--2">
+
+            <div class="my-container bg-image-1 pt-5">
+                <div class="row align-items-center flex-column-reverse flex-lg-row">
+                    <div class="col-lg-6 col-12 mb-4 ps-4 pe-4" data-aos="fade-right" data-duration="1000"
+                        data-aos-delay="100" data-aos-easing="linear">
+                        <h1 class="text-white mx-w-340 ff-inter fw-700 fs-40">
+                            Zero-knowledge,
+                            <span class="ff-inter fw-300 fs-42">
+                                scalable layer 1
+                            </span>
+                        </h1>
+                        <div class="small-line-1 mt-3 mb-3"></div>
+                        <p class="light-white-color mx-w-392 mb-3 ff-karla fw-300 fs-18">Aleph Zero is a layer 1
+                            privacy-enhancing
+                            blockchain that ensures scalability, low
+                            transaction fees, instant finality, and optimal
+                            security.</p>
+                        <div class="btn-2 d-flex align-items-center justify-content-center">
+                            <a href="#featured" class="d-flex gap-3">
+                                <svg width="16" height="22" viewBox="0 0 16 22" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M7.5078 0.0191746C6.47548 0.0191746 5.4979 0.214689 4.57507 0.605721C3.66787 0.996752 2.87408 1.53246 2.19369 2.21286C1.51329 2.89325 0.977578 3.68705 0.586547 4.59424C0.195516 5.51707 0 6.49465 0 7.52697V13.5332C0 14.5655 0.195516 15.5431 0.586547 16.4659C0.977578 17.3731 1.51329 18.1669 2.19369 18.8473C2.87408 19.5277 3.66787 20.0634 4.57507 20.4545C5.4979 20.8455 6.47548 21.041 7.5078 21.041C8.54012 21.041 9.5177 20.8455 10.4405 20.4545C11.3477 20.0634 12.1415 19.5277 12.8219 18.8473C13.5023 18.1669 14.038 17.3731 14.4291 16.4659C14.8201 15.5431 15.0156 14.5655 15.0156 13.5332V7.52697C15.0156 6.49465 14.8201 5.51707 14.4291 4.59424C14.038 3.68705 13.5023 2.89325 12.8219 2.21286C12.1415 1.53246 11.3477 0.996752 10.4405 0.605721C9.5177 0.214689 8.54012 0.0191746 7.5078 0.0191746ZM1.50156 7.52697C1.50156 6.69799 1.65797 5.91593 1.9708 5.18079C2.28362 4.46129 2.71376 3.82782 3.2612 3.28037C3.80864 2.73293 4.44212 2.3028 5.16161 1.98997C5.89675 1.67715 6.67881 1.52073 7.5078 1.52073C8.33679 1.52073 9.11885 1.67715 9.85399 1.98997C10.5735 2.3028 11.207 2.73293 11.7544 3.28037C12.3018 3.82782 12.732 4.46129 13.0448 5.18079C13.3576 5.91593 13.514 6.69799 13.514 7.52697V13.5332C13.514 14.3622 13.3576 15.1443 13.0448 15.8794C12.732 16.5989 12.3018 17.2324 11.7544 17.7798C11.207 18.3273 10.5735 18.7574 9.85399 19.0702C9.11885 19.383 8.33679 19.5395 7.5078 19.5395C6.67881 19.5395 5.89675 19.383 5.16161 19.0702C4.44212 18.7574 3.80864 18.3273 3.2612 17.7798C2.71376 17.2324 2.28362 16.5989 1.9708 15.8794C1.65797 15.1443 1.50156 14.3622 1.50156 13.5332V7.52697ZM6.75702 4.52386V7.52697H8.25858V4.52386H6.75702ZM6.75702 9.02853V14.7298L5.0443 12.9936L3.96506 14.0728L6.96818 17.076H8.04742L11.0505 14.0728L9.9713 12.9936L8.25858 14.7298V9.02853H6.75702Z"
+                                        fill="#00CCAB" />
+                                </svg>
+
+                                <p class="mb-0 ff-inter fw-500 fs-16 btn-2-color">Start exploring</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-12 d-flex align-items-center justify-content-center" data-aos="fade-left"
+                        data-duration="1000" data-aos-delay="100" data-aos-easing="linear">
+                        <img src="./assets/images/png/A-big-image.png" alt="A-big-image" class="w-75">
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="bg-color mt--2 bg-image-2">
+            <div class=" my-container">
+                <p class="light-white-color text-center ff-inter fw-300 fs-10 pt-3 mb-4">Featured in</p>
+                <div class="slick-slider">
+                    <div class="element element-1"><img src="./assets/images/svg/2nd-section-1st-image.svg"
+                            alt="2nd-section-1st-image">
+                    </div>
+                    <div class="element element-2"><img src="./assets/images/svg/2nd-section-2nd-image.svg"
+                            alt="2nd-section-2nd-image">
+                    </div>
+                    <div class="element element-3"><img src="./assets/images/svg/2nd-section-3rd-image.svg"
+                            alt="2nd-section-3rd-image" class="mt-2">
+                    </div>
+                    <div class="element element-4"><img src="./assets/images/svg/2nd-section-4th-image.svg"
+                            alt="2nd-section-4th-image">
+                    </div>
+                    <div class="element element-5"><img src="./assets/images/svg/2nd-section-5th-image.svg"
+                            alt="2nd-section-5th-image">
+                    </div>
+                    <div class="element element-6"><img src="./assets/images/svg/2nd-section-6th-image.svg"
+                            alt="2nd-section-6th-image" class="mt-3">
+                    </div>
+                    <div class="element element-7"><img src="./assets/images/svg/2nd-section-7th-image.svg"
+                            alt="2nd-section-7th-image" class="mt-2">
+                    </div>
+                </div>
+                <div class="line-1 mx-auto"></div>
+            </div>
+        </section>
+
+        <section class="bg-color pt-5 mt--2" id="featured">
+            <div class="my-container">
+                <div class="row">
+                    <div class="col-lg-6 col-12" data-aos="zoom-in-right" data-aos-delay="200" data-duration="1500"
+                        data-aos-easing="linear">
+                        <div class="card mb-5">
+                            <img src="./assets/images/png/card-1st-image.png" alt="card-1st-image">
+                            <div class="d-flex gap-3 translate-card-Y">
+                                <div class="small-line-2 ms-5"></div>
+                                <h2 class="text-white mb-0">Build <span>fast</span></h2>
+                            </div>
+                            <p class="light-white-color mx-w-430 ms-5 mt-3 translate-card-Y">
+                                Benefit from a unique combination of our consensus
+                                protocol, AlephBFT, and ink!, the Rust-based WASM
+                                programming environment.
+                            </p>
+
+                            <a href="#" class="d-flex align-items-center justify-content-end gap-2 mb-3 mt-5">
+                                <p class="mb-0 btn-2-color">Deploy apps</p>
+                                <svg class="me-4" width="20" height="13" viewBox="0 0 20 13" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M14.6483 1.24306L14.1321 0.703437L13.0529 1.78268L17.3229 6.02928H0.359985V7.53084H17.3229L13.0529 11.7774L14.1321 12.8567L19.6691 7.31969C19.8099 7.16327 19.8803 6.9834 19.8803 6.78006C19.8803 6.57673 19.8099 6.39685 19.6691 6.24044L14.6483 1.24306Z"
+                                        fill="#00CCAB" />
+                                </svg>
+                            </a>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-12" data-aos="zoom-in-left" data-aos-delay="200" data-duration="1500"
+                        data-aos-easing="linear">
+                        <div class="card mb-5">
+                            <img src="./assets/images/png/card-2nd-image.png" alt="card-2nd-image">
+                            <div class="d-flex gap-3 translate-card-Y">
+                                <div class="small-line-2 ms-5"></div>
+                                <h2 class="text-white mb-0">Scale <span>easy</span></h2>
+                            </div>
+                            <p class="light-white-color mx-w-440 ms-5 mt-3 translate-card-Y">Stake your AZERO with a
+                                trusted
+                                network of
+                                validators—or
+                                help scale Aleph Zero and make it more secure for everyone
+                                involved by becoming one yourself.</p>
+                            <a href="#" class="d-flex align-items-center justify-content-end gap-2 mb-3 mt-5">
+                                <p class="mb-0 btn-2-color">Deploy apps</p>
+                                <svg class="me-4" width="20" height="13" viewBox="0 0 20 13" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M14.6483 1.24306L14.1321 0.703437L13.0529 1.78268L17.3229 6.02928H0.359985V7.53084H17.3229L13.0529 11.7774L14.1321 12.8567L19.6691 7.31969C19.8099 7.16327 19.8803 6.9834 19.8803 6.78006C19.8803 6.57673 19.8099 6.39685 19.6691 6.24044L14.6483 1.24306Z"
+                                        fill="#00CCAB" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-color mt--2">
+            <div class="my-container pt-5">
+                <div class="row" data-aos="fade-down" data-aos-delay="100" data-aos-duration="1000">
+                    <div class="col-lg-3 col-6 d-flex flex-column align-items-center justify-content-center">
+                        <h3 class="text-white ff-inter fw-700 fs-22 mb-0">
+                            0.9 sec
+                        </h3>
+                        <div class="small-line-1 mt-3 mb-3"></div>
+                        <p class="light-white-color ff-karla fw-300 fs-16">Time to finality</p>
+                    </div>
+                    <div class="col-lg-3 col-6 d-flex flex-column align-items-center justify-content-center">
+                        <h3 class="text-white ff-inter fw-700 fs-22 mb-0">
+                            0.0003 AZERO
+                        </h3>
+                        <div class="small-line-1 mt-3 mb-3"></div>
+                        <p class="light-white-color ff-karla fw-300 fs-16">Avg cost per transaction</p>
+                    </div>
+                    <div class="col-lg-3 col-6 d-flex flex-column align-items-center justify-content-center">
+                        <h3 class="text-white ff-inter fw-700 fs-22 mb-0">
+                            57449
+                        </h3>
+                        <div class="small-line-1 mt-3 mb-3"></div>
+                        <p class="light-white-color ff-karla fw-300 fs-16">Accounts</p>
+                    </div>
+                    <div class="col-lg-3 col-6 d-flex flex-column align-items-center justify-content-center">
+                        <h3 class="text-white ff-inter fw-700 fs-22 mb-0">
+                            123
+                        </h3>
+                        <div class="small-line-1 mt-3 mb-3"></div>
+                        <p class="light-white-color ff-karla fw-300 fs-16">Mainnet validators</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-color mt--2">
+            <div class="my-container bg-image-3 d-flex justify-content-center pt-5">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <img src="./assets/images/png/5th-section-1st-image.png" alt="5th-section-1st-image"
+                            class="w-150 d-lg-block d-none">
+                    </div>
+                    <div class="col-lg-6 ps-0 pe-0" data-aos="zoom-in-down" data-aos-delay="100"
+                        data-aos-duration="1000">
+                        <div class="card-1 d-flex mt-2 row ms-sm-0 ms-3 me-sm-0 me-3">
+                            <span class="col-sm-6 ps-0 pe-0 zoom">
+                                <img src="./assets/images/png/5th-section-2nd-image.png" alt="5th-section-2nd-image"
+                                    class="w-100">
+                            </span>
+                            <div class="col-sm-6 ps-0">
+                                <div class="d-flex">
+                                    <div class="small-line-3 mx-4 mt-3"></div>
+                                    <p class="ff-inter fw-300 fs-23 mx-w-236 mt-1 text-white">
+                                        We're building a new
+                                        take on<span class="ff-inter fw-700 fs-22"> blockchain infrastructure</span>
+                                    </p>
+                                </div>
+                                <a href="" class="d-flex align-items-center justify-content-end gap-2 mt-lg-4 mt-md-5">
+                                    <p class="mb-0 ff-inter fw-500 fs-15 btn-2-color">Why Aleph Zero</p>
+                                    <span>
+                                        <svg width="20" height="13" viewBox="0 0 20 13" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M14.6483 0.662983L14.1321 0.12336L13.0529 1.20261L17.3229 5.44921H0.359985V6.95077H17.3229L13.0529 11.1974L14.1321 12.2766L19.6691 6.73961C19.8099 6.5832 19.8803 6.40332 19.8803 6.19999C19.8803 5.99665 19.8099 5.81677 19.6691 5.66036L14.6483 0.662983Z"
+                                                fill="#00CCAB" />
+                                        </svg>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="bg-color mt--2" id="build">
+            <div class="my-container pt-5">
+                <div class="row d-flex align-items-center">
+                    <div class="col-lg-6 col-12" data-aos="fade-up-right" data-aos-delay="100" data-duration="1000">
+                        <img src="./assets/images/png/section-6th-slick-image.png" alt="section-6th-slick-image"
+                            class="w-100">
+                    </div>
+                    <div class="col-lg-6 col-12 ps-4 pe-4" data-aos="fade-up-left" data-aos-delay="100"
+                        data-duration="1000">
+                        <h3 class="text-white ff-inter fw-700 fs-32">
+                            Applications
+                            <span class="ff-inter fw-300 fs-34">under</span>
+                            <h4 class="text-white ff-inter fw-300 fs-34">
+                                development
+                            </h4>
+                        </h3>
+                        <div class="small-line-1 mb-4 mt-3"></div>
+                        <p class="light-white-color mb-4 mx-w-446 ff-karla fw-300 fs-18">With the mainnet launch, Aleph
+                            Zero
+                            has seen a
+                            notable initial adoption within the developer
+                            community. Our flexible environment will be familiar
+                            for builders who are already accustomed with Rust and
+                            the Substrate stack.</p>
+                        <a href="" class="btn-3 d-inline-block ff-inter fw-500 fs-15">
+                            Explore the ecosystem
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-color mt--2">
+            <div class="my-container bg-image-3 d-flex justify-content-center pt-5">
+                <div class="row">
+                    <div class="col-lg-6 ps-0 pe-0" data-aos="zoom-in-down" data-aos-delay="100"
+                        data-aos-duration="1000">
+                        <div class="card-1 d-flex mt-2 row ms-sm-0 ms-3 me-sm-0 me-3 mb-3">
+                            <span class="col-sm-6 ps-0 pe-0 zoom">
+                                <img src="./assets/images/png/middle-section-image-1.png" alt="middle-section-image-1"
+                                    class="w-100">
+                            </span>
+                            <div class="col-sm-6 ps-0">
+                                <div class="d-flex">
+                                    <div class="small-line-3 mx-4 mt-3"></div>
+                                    <p class=" mb-0 ff-inter fw-300 fs-23 mx-w-236 mt-1 text-white">
+                                        Aleph Zero is designed
+                                        to<span class="ff-inter fw-700 fs-22">
+                                            care for the environment</span>
+                                    </p>
+                                </div>
+                                <a href=""
+                                    class="d-flex align-items-center justify-content-end gap-2 mt-lg-4 mt-md-4 pt-md-2">
+                                    <p class="mb-0 ff-inter fw-500 fs-15 btn-2-color">Our carbon footprint</p>
+                                    <span>
+                                        <svg width="20" height="13" viewBox="0 0 20 13" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M14.6483 0.662983L14.1321 0.12336L13.0529 1.20261L17.3229 5.44921H0.359985V6.95077H17.3229L13.0529 11.1974L14.1321 12.2766L19.6691 6.73961C19.8099 6.5832 19.8803 6.40332 19.8803 6.19999C19.8803 5.99665 19.8099 5.81677 19.6691 5.66036L14.6483 0.662983Z"
+                                                fill="#00CCAB" />
+                                        </svg>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <img src="./assets/images/png/middle-section-image.png" alt="middle-section-image"
+                            class="w-100 d-lg-block d-none">
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="bg-color mt--2">
+            <div class="my-container pb-5 pt-5">
+                <div class="row align-items-center justify-content-center flex-column-reverse flex-lg-row">
+                    <div class="col-lg-6 col-12 my-2 ps-4 pe-4" data-aos="fade-right" data-duration="1000"
+                        data-aos-delay="100">
+                        <h5 class="ff-inter fw-300 fs-34 text-white">
+                            Driving<span class="ff-inter fw-700 fs-32"> Web3 adoption</span>
+                        </h5>
+                        <div class="small-line-1 mb-4 mt-4"></div>
+                        <p class="ff-inter fw-300 fs-18 light-white-color">Aleph Zero bridges the gap between
+                            scalability,
+                            security, developer friendliness, and cost of use. 
+                            Moreover, the network will boast a native privacy stack
+                            to further enable you to build solutions that strike the
+                            balance between transparency and privacy.</p>
+                        <a href="" class="btn-3 ff-inter fw-500 fs-15 d-inline-block">
+                            See what’s possible
+                        </a>
+                    </div>
+                    <div class="col-lg-6 my-2 ps-4 pe-4" data-aos="fade-left" data-duration="1000" data-aos-delay="100">
+                        <div class="slick-slider-2">
+                            <div class="slick-card d-flex mb-2 gap-3">
+                                <img src="./assets/images/svg/vertical-slick-1.svg" alt="vertical-slick-1">
+                                <p class="ff-inter fw-500 fs-15 mb-0 text-white">Supply chain management</p>
+                            </div>
+                            <div class="slick-card d-flex mb-2 gap-3">
+                                <img src="./assets/images/svg/vertical-slick-2.svg" alt="vertical-slick-2">
+                                <p class="ff-inter fw-500 fs-15 mb-0 text-white">Asset digitization</p>
+                            </div>
+                            <div class="slick-card d-flex mb-2 gap-3">
+                                <img src="./assets/images/svg/vertical-slick-3.svg" alt="vertical-slick-3">
+                                <p class="ff-inter fw-500 fs-15 mb-0 text-white">Smart contracts</p>
+                            </div>
+                            <div class="slick-card d-flex mb-2 gap-3">
+                                <img src="./assets/images/svg/vertical-slick-4.svg" alt="vertical-slick-4">
+                                <p class="ff-inter fw-500 fs-15 mb-0 text-white">Notary signatory</p>
+                            </div>
+                            <div class="slick-card d-flex mb-2 gap-3">
+                                <img src="./assets/images/svg/vertical-slick-5.svg" alt="vertical-slick-5">
+                                <p class="ff-inter fw-500 fs-15 mb-0 text-white mx-w-236">Automatic payments and shared
+                                    revenue agreement</p>
+                            </div>
+                            <div class="slick-card d-flex mb-2 gap-3">
+                                <img src="./assets/images/svg/vertical-slick-4.svg" alt="vertical-slick-4">
+                                <p class="ff-inter fw-500 fs-15 mb-0 text-white">Notary signatory</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="bg-color mt--2">
+            <div class="my-container bg-image-3 d-flex justify-content-center pt-5">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <img src="./assets/images/png/9th-section-1st-image.png" alt="9th-section-1st-image"
+                            class="w-150 d-lg-block d-none">
+                    </div>
+                    <div class="col-lg-6 ps-0 pe-0" data-aos="zoom-in-down" data-aos-delay="100"
+                        data-aos-duration="1000">
+                        <div class="card-1 d-flex mt-2 row ms-sm-0 ms-3 me-sm-0 me-3">
+                            <span class="col-sm-6 ps-0 pe-0 zoom">
+                                <img src="./assets/images/png/9th-section-2nd-image.png" alt="9th-section-2nd-image"
+                                    class="w-100">
+                            </span>
+                            <div class="col-sm-6 ps-0">
+                                <div class="d-flex">
+                                    <div class="small-line-3 mx-4 mt-3"></div>
+                                    <p class="ff-inter fw-300 fs-23 mx-w-236 mt-1 text-white">
+                                        Aleph Zero is designed
+                                        to<span class="ff-inter fw-700 fs-22">
+                                            care for the environment</span>
+                                    </p>
+                                </div>
+                                <a href="" class="d-flex align-items-center justify-content-end gap-2 mt-lg-4 mt-md-5">
+                                    <p class="mb-0 ff-inter fw-500 fs-15 btn-2-color">Our carbon footprint</p>
+                                    <span>
+                                        <svg width="20" height="13" viewBox="0 0 20 13" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M14.6483 0.662983L14.1321 0.12336L13.0529 1.20261L17.3229 5.44921H0.359985V6.95077H17.3229L13.0529 11.1974L14.1321 12.2766L19.6691 6.73961C19.8099 6.5832 19.8803 6.40332 19.8803 6.19999C19.8803 5.99665 19.8099 5.81677 19.6691 5.66036L14.6483 0.662983Z"
+                                                fill="#00CCAB" />
+                                        </svg>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="bg-color mt--2 pt-5" id="community">
+            <div class="my-container">
+                <div class="row d-flex align-items-center">
+                    <div class="col-lg-6 col-12 my-2" data-aos="fade-up" data-aos-delay="100" data-duration="1000">
+                        <img src="./assets/images/svg/batman-in-circle-image.svg" alt="batman-in-circle-image"
+                            class="w-100">
+                    </div>
+                    <div class="col-lg-6 col-12 ps-4 pe-4 my-2" data-aos="fade-down" data-aos-delay="100"
+                        data-duration="1000">
+                        <h4 class="ff-inter fw-700 fs-32 text-white">Community
+                            <span class="ff-inter fw-300 fs-34">
+                                of over 100,000
+                                people
+                            </span>
+                        </h4>
+                        <div class="small-line-1 mt-4 mb-4"></div>
+                        <p class="mb-4 ff-karla fw-300 fs-18 light-white-color mx-w-440">
+                            Join us and get involved in a number of ongoing
+                            educational activities run not only by the core team
+                            but also by the community directly.
+                        </p>
+                        <a href="" class="btn-3 d-inline-block ff-inter fw-500 fs-15">
+                            Get involved
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-color mt--2">
+            <img src="./assets/images/png/11-section-uper-image.png" alt="11th-section-uper-image"
+                class="w-100 d-none d-lg-block">
+            <div class="my-container">
+                <div class="row flex-sm-column flex-md-row" data-aos="zoom-in-up">
+                    <div class="col-md-4 mb-2 mt-2">
+                        <div class="last-section-card position-relative overflow-hidden">
+                            <img src="./assets/images/png/11th-section-1st-image.png" alt="11th-section-1st-image"
+                                class="w-100">
+                            <div class="position-relative">
+                                <img src="./assets/images/svg/11th-section-1st-small-image.svg"
+                                    alt="11th-section-1st-small-image"
+                                    class="position-absolute section-11-position last-section-hover">
+                                <div class="d-flex align-items-center gap-3 mt-4 last-section-hover">
+                                    <div class="small-line-4 ms-4"></div>
+                                    <h5 class="ff-inter fw-300 fs-20 text-white mb-0">AZERO<span
+                                            class="ff-inter fw-700 fs-18">
+                                            wallet</span></h5>
+                                </div>
+                                <p
+                                    class="light-white-color ff-karla fw-300 fs-15 mx-w-236 ms-4 mt-2 mb-5 last-section-hover">
+                                    Set up your Aleph
+                                    Zero
+                                    wallet to
+                                    be
+                                    able to hold, transfer, or stake your
+                                    AZERO coins.</p>
+                                <a href=""
+                                    class="section-11-btn d-flex align-items-center justify-content-center position-relative gap-3 position-11-btn">
+                                    <span>
+                                        <svg width="17" height="18" viewBox="0 0 17 18" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M10.3482 0.798513H16.0964C16.3153 0.798513 16.4952 0.868898 16.636 1.00967C16.7768 1.15044 16.8471 1.33032 16.8471 1.54929V7.29745H15.3456V3.35586L8.09587 10.6056L7.04008 9.54979L14.2898 2.30007H10.3482V0.798513ZM0.329987 2.53469C0.329987 2.33136 0.404283 2.15539 0.552874 2.0068C0.701466 1.85821 0.87743 1.78391 1.08077 1.78391H7.83779V3.28547H1.83155V15.8141H14.3602V9.80787H15.8617V16.5649C15.8617 16.7682 15.7875 16.9442 15.6389 17.0928C15.4903 17.2414 15.3143 17.3157 15.111 17.3157H1.08077C0.87743 17.3157 0.701466 17.2414 0.552874 17.0928C0.404283 16.9442 0.329987 16.7682 0.329987 16.5649V2.53469Z"
+                                                fill="#00CCAB" />
+                                        </svg>
+                                    </span>
+                                    <p class="mb-0 btn-2-color ff-inter fw-500 fs-16">Go to</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-2 mt-2">
+                        <div class="last-section-card position-relative overflow-hidden">
+                            <img src="./assets/images/png/11th-section-2nd-image.png" alt="11th-section-1st-small-image"
+                                class="w-100">
+                            <div class="position-relative">
+                                <img src="./assets/images/svg/11th-section-1st-small-image.svg"
+                                    alt="11th-section-1st-small-image"
+                                    class="position-absolute section-11-position last-section-hover">
+                                <div class="d-flex align-items-center gap-3 mt-4 last-section-hover">
+                                    <div class="small-line-4 ms-4"></div>
+                                    <h5 class="ff-inter fw-300 fs-20 text-white mb-0">AZERO<span
+                                            class="ff-inter fw-700 fs-18">
+                                            explorer</span></h5>
+                                </div>
+                                <p
+                                    class="light-white-color ff-karla fw-300 fs-15 mx-w-236 ms-4 mt-2 mb-5 last-section-hover">
+                                    Familiarize
+                                    yourself with the Aleph
+                                    Zero explorer launched in
+                                    collaboration with Subscan.</p>
+                                <a href=""
+                                    class="section-11-btn d-flex align-items-center justify-content-center position-relative gap-3 position-11-btn">
+                                    <span>
+                                        <svg width="17" height="18" viewBox="0 0 17 18" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M10.3482 0.798513H16.0964C16.3153 0.798513 16.4952 0.868898 16.636 1.00967C16.7768 1.15044 16.8471 1.33032 16.8471 1.54929V7.29745H15.3456V3.35586L8.09587 10.6056L7.04008 9.54979L14.2898 2.30007H10.3482V0.798513ZM0.329987 2.53469C0.329987 2.33136 0.404283 2.15539 0.552874 2.0068C0.701466 1.85821 0.87743 1.78391 1.08077 1.78391H7.83779V3.28547H1.83155V15.8141H14.3602V9.80787H15.8617V16.5649C15.8617 16.7682 15.7875 16.9442 15.6389 17.0928C15.4903 17.2414 15.3143 17.3157 15.111 17.3157H1.08077C0.87743 17.3157 0.701466 17.2414 0.552874 17.0928C0.404283 16.9442 0.329987 16.7682 0.329987 16.5649V2.53469Z"
+                                                fill="#00CCAB" />
+                                        </svg>
+                                    </span>
+                                    <p class="mb-0 btn-2-color ff-inter fw-500 fs-16">Go to</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-2 mt-2">
+                        <div class="last-section-card position-relative overflow-hidden">
+                            <img src="./assets/images/png/11th-section-1st-image.png" alt="" class="w-100">
+                            <div class="position-relative">
+                                <img src="./assets/images/svg/11th-section-1st-small-image.svg"
+                                    alt="11th-section-1st-small-image"
+                                    class="position-absolute section-11-position last-section-hover">
+                                <div class="d-flex align-items-center gap-3 mt-4 last-section-hover">
+                                    <div class="small-line-4 ms-4"></div>
+                                    <h5 class="ff-inter fw-300 fs-20 text-white mb-0">AZERO<span
+                                            class="ff-inter fw-700 fs-18">
+                                            utility</span></h5>
+                                </div>
+                                <p
+                                    class="light-white-color ff-karla fw-300 fs-15 mx-w-236 ms-4 mt-2 mb-5 last-section-hover">
+                                    Learn more about
+                                    the utility and
+                                    economics behind AZERO - Aleph
+                                    Zero's native coin.</p>
+                                <a href=""
+                                    class="section-11-btn d-flex align-items-center justify-content-center position-relative gap-3 position-11-btn">
+                                    <span>
+                                        <svg width="20" height="13" viewBox="0 0 20 13" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M14.5711 1.01284L14.0549 0.473213L12.9757 1.55246L17.2457 5.79906H0.282776V7.30062H17.2457L12.9757 11.5472L14.0549 12.6265L19.5919 7.08946C19.7327 6.93305 19.8031 6.75318 19.8031 6.54984C19.8031 6.3465 19.7327 6.16663 19.5919 6.01022L14.5711 1.01284Z"
+                                                fill="#00CCAB" />
+                                        </svg>
+                                    </span>
+                                    <p class="mb-0 btn-2-color ff-inter fw-500 fs-16">Go to</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <img src="./assets/images/png/11-section-lower-image.png" alt="11th-section-1st-image"
+                class="w-100 d-none d-lg-block">
+        </section>
+
+        <footer class="bg-color pt-5 mt--2" id="content">
+            <div class="my-container">
+                <div class="row pt-5">
+                    <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="100" data-duration="1000">
+                        <div class="d-flex align-items-center gap-2">
+                            <div class="small-line-4"></div>
+                            <h6 class="text-white ff-inter fw-300 fs-23 mb-0">Be<span class="ff-inter fw-700 fs-23">
+                                    future-ready</span></h6>
+                        </div>
+                        <p class="light-white-color ff-karla fw-300 fs-15 mt-3 mx-w-340">Get the latest from the Aleph
+                            Zero
+                            ecosystem
+                            and
+                            engineering updates, straight to your inbox.</p>
+                        <div class="d-flex justify-content-between your-email">
+                            <input type="email" placeholder="Your email" class="ff-karla fw-300 fs-16 inner-email">
+                            <a class="subscribe ff-inter fw-500 fc_black fs-13 d-flex align-items-center gap-3"
+                                href="#">
+                                <span>
+                                    <svg width="19" height="17" viewBox="0 0 19 17" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M1.2821 0.807373H18.3446L18.8983 1.36108V8.57983H17.7909V2.46851L10.1415 8.35425H9.48523L1.83582 2.46851V13.9324H11.1259V15.0398H1.2821L0.728394 14.4861V1.36108L1.2821 0.807373ZM16.745 1.91479H2.88171L9.81335 7.22632L16.745 1.91479ZM12.4384 13.7273V12.6199H15.1659V9.89233H16.2733V12.6199H19.0009V13.7273H16.2733V16.4548H15.1659V13.7273H12.4384Z"
+                                            fill="#111B24" />
+                                    </svg>
+                                </span>
+                                <p class="mb-0 ff-inter fw-500 fs-13 text-black">
+                                    Subscribe
+                                </p>
+                            </a>
+                        </div>
+                        <div class="d-flex align-items-baseline gap-3 mt-4">
+                            <input type="checkbox" id="box_check" class="check_box">
+                            <label for="box_check" class="ff-karla fw-300 fs-13 light-white-color mx-w-340">
+                                I consent to receive commercial information in the
+                                form of a newsletter sent to the e-mail address
+                                provided by the Aleph Zero Foundation with
+                                registered seat in Bergliweg 15, 6300 Zug. Providing
+                                consent is voluntary. Consent may be revoked at any
+                                time.
+                            </label>
+                        </div>
+
+                        <div class="d-flex gap-4 mt-5 mb-5">
+                            <div>
+                                <img src="./assets/images/svg/footer-icon-1.svg" alt="footer"
+                                    class="cursor-pointer translate-Y">
+                            </div>
+                            <div>
+                                <img src="./assets/images/svg/footer-icon-2.svg" alt="footer"
+                                    class="cursor-pointer translate-Y">
+                            </div>
+                            <div>
+                                <img src="./assets/images/svg/footer-icon-3.svg" alt="footer"
+                                    class="cursor-pointer translate-Y">
+                            </div>
+                            <div>
+                                <img src="./assets/images/svg/footer-icon-4.svg" alt="footer"
+                                    class="cursor-pointer translate-Y">
+                            </div>
+                            <div>
+                                <img src="./assets/images/svg/footer-icon-5.svg" alt="footer"
+                                    class="cursor-pointer translate-Y">
+                            </div>
+                            <div>
+                                <img src="./assets/images/svg/footer-icon-6.svg" alt="footer"
+                                    class="cursor-pointer translate-Y">
+                            </div>
+                            <div>
+                                <img src="./assets/images/svg/footer-icon-7.svg" alt="footer"
+                                    class="cursor-pointer translate-Y">
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-8" data-aos="zoom-in-up" data-aos-delay="100" data-duration="1000">
+                        <div class="row">
+                            <div class="col-6 col-md-3">
+                                <ul class="ps-0">
+                                    <li class="ff-inter fw-700 fs-15 text-white mb-4">Explore</li>
+                                    <li><a href="" class="ff-inter fw-500 fs-13 footer-color d-inline-block mb-2">Why
+                                            Aleph Zero</a>
+                                    </li>
+                                    <li><a href=""
+                                            class="ff-inter fw-500 fs-13 footer-color d-inline-block mb-2">Roadmap</a>
+                                    </li>
+                                    <li><a href=""
+                                            class="ff-inter fw-500 fs-13 footer-color d-inline-block mb-2">Utility &
+                                            Economics</a>
+                                    </li>
+                                    <li><a href="" class="ff-inter fw-500 fs-13 footer-color d-inline-block mb-2">Use
+                                            Cases</a></li>
+                                    <li><a href=""
+                                            class="ff-inter fw-500 fs-13 footer-color d-inline-block mb-2">FAQ<sup
+                                                class="ms-1">
+                                                <img src="./assets/images/svg/uper-green-arrow.svg"
+                                                    alt="uper-green-arrow">
+                                            </sup></a></li>
+                                    <li><a href=""
+                                            class="ff-inter fw-500 fs-13 footer-color d-inline-block mb-2">Whitepapers<sup
+                                                class="ms-1">
+                                                <img src="./assets/images/svg/uper-green-arrow.svg"
+                                                    alt="uper-green-arrow">
+                                            </sup></a></li>
+                                    <li><a href="" class="ff-inter fw-500 fs-13 footer-color d-inline-block mb-2">Carbon
+                                            Footprint</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-6 col-md-3">
+                                <ul class="ps-0">
+                                    <li class="ff-inter fw-700 fs-15 text-white mb-4">Build</li>
+                                    <li><a href=""
+                                            class="ff-inter fw-500 fs-13 footer-color d-inline-block mb-2">Funding
+                                            Program</a></li>
+                                    <li><a href=""
+                                            class="ff-inter fw-500 fs-13 footer-color d-inline-block mb-4">Testnet<sup
+                                                class="ms-1">
+                                                <img src="./assets/images/svg/uper-green-arrow.svg"
+                                                    alt="uper-green-arrow">
+                                            </sup></a></li>
+                                    <li class="ff-inter fw-300 fs-12 light-white-color mb-3 mt-2">Dev space</li>
+                                    <li><a href="" class="ff-inter fw-500 fs-13 footer-color d-inline-block mb-2">Dev
+                                            Portal</a></li>
+                                    <li><a href="" class="ff-inter fw-500 fs-13 footer-color d-inline-block mb-2">Code
+                                            repository<sup class="ms-1">
+                                                <img src="./assets/images/svg/uper-green-arrow.svg"
+                                                    alt="uper-green-arrow">
+                                            </sup></a></li>
+                                    <li><a href=""
+                                            class="ff-inter fw-500 fs-13 footer-color d-inline-block mb-2">Documentation<sup
+                                                class="ms-1">
+                                                <img src="./assets/images/svg/uper-green-arrow.svg"
+                                                    alt="uper-green-arrow">
+                                            </sup></a></li>
+                                </ul>
+                            </div>
+                            <div class="col-6 col-md-3">
+                                <ul class="ps-0">
+                                    <li class="ff-inter fw-700 fs-15 text-white mb-4">Community</li>
+                                    <li><a href="" class="ff-inter fw-500 fs-13 footer-color d-inline-block mb-2">Social
+                                            Platforms</a>
+                                    </li>
+                                    <li><a href=""
+                                            class="ff-inter fw-500 fs-13 footer-color d-inline-block mb-2">Upcoming
+                                            Events</a>
+                                    </li>
+                                    <li><a href="" class="ff-inter fw-500 fs-13 footer-color d-inline-block mb-2">Press
+                                            / Media
+                                            Kit</a>
+                                    </li>
+                                    <li><a href=""
+                                            class="ff-inter fw-500 fs-13 footer-color d-inline-block mb-2">Careers<sup
+                                                class="ms-1">
+                                                <img src="./assets/images/svg/uper-green-arrow.svg" alt="">
+                                            </sup></a></li>
+                                    <li><a href="" class="ff-inter fw-500 fs-13 footer-color d-inline-block mb-2">Core
+                                            Teams</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-6 col-md-3">
+                                <ul class="ps-0">
+                                    <li class="ff-inter fw-700 fs-15 text-white mb-4">Content</li>
+                                    <li><a href=""
+                                            class="ff-inter fw-500 fs-13 footer-color d-inline-block mb-2">Blog</a>
+                                    </li>
+                                    <li><a href=""
+                                            class="ff-inter fw-500 fs-13 footer-color d-inline-block mb-2">Videos<sup
+                                                class="ms-1">
+                                                <img src="./assets/images/svg/uper-green-arrow.svg" alt="">
+                                            </sup></a></li>
+                                </ul>
+                            </div>
+                            <div class="col-6 col-md-3">
+                                <ul class="ps-0">
+                                    <li class="ff-inter fw-300 fs-12 light-white-color mb-3 mt-2">Network</li>
+                                    <li><a href=""
+                                            class="ff-inter fw-500 fs-13 footer-color d-inline-block mb-2">Wallet<sup
+                                                class="ms-1">
+                                                <img src="./assets/images/svg/uper-green-arrow.svg" alt="">
+                                            </sup></a></li>
+                                    <li><a href=""
+                                            class="ff-inter fw-500 fs-13 footer-color d-inline-block mb-2">Staking</a>
+                                    </li>
+                                    <li><a href=""
+                                            class="ff-inter fw-500 fs-13 footer-color d-inline-block mb-2">Explorer<sup
+                                                class="ms-1">
+                                                <img src="./assets/images/svg/uper-green-arrow.svg" alt="">
+                                            </sup></a></li>
+                                    <li><a href=""
+                                            class="ff-inter fw-500 fs-13 footer-color d-inline-block mb-2">Ecosystem</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="container">
+                <div class="row" data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-delay="100"
+                    data-duration="1000">
+                    <div class="col-lg-6">
+                        <div class="last-card mt-2 mb-2">
+                            <div class="d-flex">
+                                <img src="./assets/images/svg/last-card-logo.svg" alt="" class="ms-4">
+                                <div class="ms-4">
+                                    <p class="mt-3 light-white-color">
+                                        Aleph Zero Foundation
+                                    </p>
+                                    <p class="light-white-color mx-w-410">
+                                        The Aleph Zero Foundation is responsible for
+                                        overseeing the development of Aleph Zero protocol. The
+                                        Foundation is also the issuer of the AZERO coin.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center justify-content-center">
+                                <div class="line-2"></div>
+                            </div>
+                            <div class=" d-flex align-items-center justify-content-between mt-3 pb-2 mb-5">
+                                <div class="d-flex align-items-center gap-3">
+                                    <span class="ms-5 mb-2">
+                                        <svg width="10" height="13" viewBox="0 0 10 13" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M0.875 5.08008C0.875 4.5332 0.979818 4.02279 1.18945 3.54883C1.38997 3.06575 1.66797 2.64648 2.02344 2.29102C2.37891 1.93555 2.79818 1.65755 3.28125 1.45703C3.75521 1.2474 4.26562 1.14258 4.8125 1.14258C5.35938 1.14258 5.86979 1.2474 6.34375 1.45703C6.82682 1.65755 7.24609 1.93555 7.60156 2.29102C7.95703 2.64648 8.23503 3.06575 8.43555 3.54883C8.64518 4.02279 8.75 4.5332 8.75 5.08008C8.75 5.49023 8.71354 5.84798 8.64062 6.15332C8.56771 6.45866 8.46289 6.74805 8.32617 7.02148C8.18945 7.29492 8.02083 7.56608 7.82031 7.83496C7.61979 8.10384 7.37826 8.4069 7.0957 8.74414L4.8125 11.6016L2.5293 8.74414C2.24674 8.4069 2.00521 8.10612 1.80469 7.8418C1.60417 7.57747 1.43555 7.31315 1.29883 7.04883C1.16211 6.78451 1.05729 6.4974 0.984375 6.1875C0.911458 5.8776 0.875 5.50846 0.875 5.08008ZM4.8125 0.267578C4.14714 0.267578 3.52279 0.395183 2.93945 0.650391C2.35612 0.896484 1.8457 1.23828 1.4082 1.67578C0.970703 2.11328 0.628906 2.6237 0.382812 3.20703C0.127604 3.79036 0 4.41471 0 5.08008C0 5.57227 0.0432943 6.00749 0.129883 6.38574C0.216471 6.764 0.341797 7.11719 0.505859 7.44531C0.669922 7.76432 0.865885 8.06966 1.09375 8.36133C1.32161 8.65299 1.56771 8.95833 1.83203 9.27734L1.8457 9.29102L4.4707 12.5723H5.1543L7.7793 9.29102C8.05273 8.97201 8.30339 8.65983 8.53125 8.35449C8.75911 8.04915 8.95508 7.73242 9.11914 7.4043C9.2832 7.07617 9.40853 6.72298 9.49512 6.34473C9.58171 5.96647 9.625 5.54492 9.625 5.08008C9.625 4.41471 9.4974 3.79036 9.24219 3.20703C8.99609 2.6237 8.6543 2.11328 8.2168 1.67578C7.7793 1.23828 7.26888 0.896484 6.68555 0.650391C6.10221 0.395183 5.47786 0.267578 4.8125 0.267578ZM3.5 5.08008C3.5 4.71549 3.6276 4.4056 3.88281 4.15039C4.13802 3.89518 4.44792 3.76758 4.8125 3.76758C5.17708 3.76758 5.48698 3.89518 5.74219 4.15039C5.9974 4.4056 6.125 4.71549 6.125 5.08008C6.125 5.44466 5.9974 5.75456 5.74219 6.00977C5.48698 6.26497 5.17708 6.39258 4.8125 6.39258C4.44792 6.39258 4.13802 6.26497 3.88281 6.00977C3.6276 5.75456 3.5 5.44466 3.5 5.08008ZM4.8125 2.89258C4.21094 2.89258 3.69596 3.10677 3.26758 3.53516C2.83919 3.96354 2.625 4.47852 2.625 5.08008C2.625 5.68164 2.83919 6.19661 3.26758 6.625C3.69596 7.05339 4.21094 7.26758 4.8125 7.26758C5.41406 7.26758 5.92904 7.05339 6.35742 6.625C6.78581 6.19661 7 5.68164 7 5.08008C7 4.47852 6.78581 3.96354 6.35742 3.53516C5.92904 3.10677 5.41406 2.89258 4.8125 2.89258Z"
+                                                fill="#BCCBD6" />
+                                        </svg>
+                                    </span>
+                                    <p class="mb-0 ff-inter fw-300 fs-15 light-white-color">Bergliweg 15, 6300 Zug,
+                                        Switzerland</p>
+                                </div>
+                                <div>
+                                    <a href="" class="d-flex align-items-center gap-3">
+                                        <span class="mb-2">
+                                            <svg width="13" height="9" viewBox="0 0 13 9" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M1.02759 0.0449219H12.4026L12.8401 0.482422V8.35742L12.4026 8.79492H1.02759L0.590088 8.35742V0.482422L1.02759 0.0449219ZM1.46509 1.37109V7.91992H11.9651V1.37109L6.98853 5.19922H6.44165L1.46509 1.37109ZM11.1174 0.919922H2.31274L6.71509 4.31055L11.1174 0.919922Z"
+                                                    fill="#BCCBD6" />
+                                            </svg>
+                                        </span>
+                                        <p class="mb-0 me-5 ff-karla fw-300 fs-15 footer-color">hello@alephzero.org</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="last-card mt-2 mb-2">
+                            <div class="d-flex">
+                                <img src="./assets/images/svg/last-card-logo-1.svg" alt="" class="ms-4">
+                                <div class="ms-4">
+                                    <p class="mt-3 light-white-color">
+                                        Cardinal Cryptography sp. z o.o.
+                                    </p>
+                                    <p class="light-white-color mx-w-410">
+                                        Aleph Zero core developer responsible for research,
+                                        development, cryptography, native tooling, and
+                                        incubating use cases deploying on top of the network.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center justify-content-center">
+                                <div class="line-2"></div>
+                            </div>
+                            <div class=" d-flex align-items-center justify-content-between mt-3 mb-4">
+                                <div class="d-flex align-items-center gap-3">
+                                    <span class="ms-5 mb-2">
+                                        <svg width="10" height="13" viewBox="0 0 10 13" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M0.875 5.08008C0.875 4.5332 0.979818 4.02279 1.18945 3.54883C1.38997 3.06575 1.66797 2.64648 2.02344 2.29102C2.37891 1.93555 2.79818 1.65755 3.28125 1.45703C3.75521 1.2474 4.26562 1.14258 4.8125 1.14258C5.35938 1.14258 5.86979 1.2474 6.34375 1.45703C6.82682 1.65755 7.24609 1.93555 7.60156 2.29102C7.95703 2.64648 8.23503 3.06575 8.43555 3.54883C8.64518 4.02279 8.75 4.5332 8.75 5.08008C8.75 5.49023 8.71354 5.84798 8.64062 6.15332C8.56771 6.45866 8.46289 6.74805 8.32617 7.02148C8.18945 7.29492 8.02083 7.56608 7.82031 7.83496C7.61979 8.10384 7.37826 8.4069 7.0957 8.74414L4.8125 11.6016L2.5293 8.74414C2.24674 8.4069 2.00521 8.10612 1.80469 7.8418C1.60417 7.57747 1.43555 7.31315 1.29883 7.04883C1.16211 6.78451 1.05729 6.4974 0.984375 6.1875C0.911458 5.8776 0.875 5.50846 0.875 5.08008ZM4.8125 0.267578C4.14714 0.267578 3.52279 0.395183 2.93945 0.650391C2.35612 0.896484 1.8457 1.23828 1.4082 1.67578C0.970703 2.11328 0.628906 2.6237 0.382812 3.20703C0.127604 3.79036 0 4.41471 0 5.08008C0 5.57227 0.0432943 6.00749 0.129883 6.38574C0.216471 6.764 0.341797 7.11719 0.505859 7.44531C0.669922 7.76432 0.865885 8.06966 1.09375 8.36133C1.32161 8.65299 1.56771 8.95833 1.83203 9.27734L1.8457 9.29102L4.4707 12.5723H5.1543L7.7793 9.29102C8.05273 8.97201 8.30339 8.65983 8.53125 8.35449C8.75911 8.04915 8.95508 7.73242 9.11914 7.4043C9.2832 7.07617 9.40853 6.72298 9.49512 6.34473C9.58171 5.96647 9.625 5.54492 9.625 5.08008C9.625 4.41471 9.4974 3.79036 9.24219 3.20703C8.99609 2.6237 8.6543 2.11328 8.2168 1.67578C7.7793 1.23828 7.26888 0.896484 6.68555 0.650391C6.10221 0.395183 5.47786 0.267578 4.8125 0.267578ZM3.5 5.08008C3.5 4.71549 3.6276 4.4056 3.88281 4.15039C4.13802 3.89518 4.44792 3.76758 4.8125 3.76758C5.17708 3.76758 5.48698 3.89518 5.74219 4.15039C5.9974 4.4056 6.125 4.71549 6.125 5.08008C6.125 5.44466 5.9974 5.75456 5.74219 6.00977C5.48698 6.26497 5.17708 6.39258 4.8125 6.39258C4.44792 6.39258 4.13802 6.26497 3.88281 6.00977C3.6276 5.75456 3.5 5.44466 3.5 5.08008ZM4.8125 2.89258C4.21094 2.89258 3.69596 3.10677 3.26758 3.53516C2.83919 3.96354 2.625 4.47852 2.625 5.08008C2.625 5.68164 2.83919 6.19661 3.26758 6.625C3.69596 7.05339 4.21094 7.26758 4.8125 7.26758C5.41406 7.26758 5.92904 7.05339 6.35742 6.625C6.78581 6.19661 7 5.68164 7 5.08008C7 4.47852 6.78581 3.96354 6.35742 3.53516C5.92904 3.10677 5.41406 2.89258 4.8125 2.89258Z"
+                                                fill="#BCCBD6" />
+                                        </svg>
+                                    </span>
+                                    <p class="mb-0 ff-inter fw-300 fs-15 light-white-color">Zamoyskiego 79A, 30-519
+                                        Krakow,
+                                        Poland</p>
+                                </div>
+                                <div>
+                                    <a href="" class="d-flex align-items-center gap-3">
+                                        <span class="mb-2">
+                                            <svg width="13" height="13" viewBox="0 0 13 13" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M4.56641 1.40234C4.0651 1.55729 3.60026 1.7806 3.17188 2.07227C2.74349 2.37305 2.36751 2.72168 2.04395 3.11816C1.72038 3.51465 1.45833 3.95443 1.25781 4.4375C1.05729 4.92969 0.934245 5.44466 0.888672 5.98242H3.5C3.52734 5.26237 3.59798 4.58333 3.71191 3.94531C3.82585 3.30729 3.97852 2.73763 4.16992 2.23633C4.22461 2.0905 4.28613 1.94694 4.35449 1.80566C4.42285 1.66439 4.49349 1.52995 4.56641 1.40234ZM6.125 1.16992C6.0612 1.16992 5.98372 1.19043 5.89258 1.23145C5.80143 1.27246 5.70117 1.35221 5.5918 1.4707C5.49154 1.58919 5.389 1.73958 5.28418 1.92188C5.17936 2.10417 5.08138 2.3138 4.99023 2.55078C4.81706 2.98828 4.67806 3.50098 4.57324 4.08887C4.46842 4.67676 4.40234 5.30794 4.375 5.98242H7.875C7.84766 5.30794 7.78158 4.67676 7.67676 4.08887C7.57194 3.50098 7.43294 2.98828 7.25977 2.55078C7.16862 2.3138 7.07064 2.10417 6.96582 1.92188C6.861 1.73958 6.75846 1.58919 6.6582 1.4707C6.54883 1.35221 6.44857 1.27246 6.35742 1.23145C6.26628 1.19043 6.1888 1.16992 6.125 1.16992ZM8.75 5.98242H11.3613C11.3158 5.44466 11.1927 4.92969 10.9922 4.4375C10.7917 3.95443 10.5296 3.51465 10.2061 3.11816C9.88249 2.72168 9.50651 2.37305 9.07812 2.07227C8.64974 1.7806 8.1849 1.55729 7.68359 1.40234C7.75651 1.52995 7.82715 1.66439 7.89551 1.80566C7.96387 1.94694 8.02539 2.0905 8.08008 2.23633C8.27148 2.73763 8.42415 3.30729 8.53809 3.94531C8.65202 4.58333 8.72266 5.26237 8.75 5.98242ZM7.875 6.85742H4.375C4.40234 7.5319 4.46842 8.16309 4.57324 8.75098C4.67806 9.33887 4.81706 9.85156 4.99023 10.2891C5.08138 10.526 5.17936 10.7357 5.28418 10.918C5.389 11.1003 5.49154 11.2507 5.5918 11.3691C5.70117 11.4876 5.80143 11.5674 5.89258 11.6084C5.98372 11.6494 6.0612 11.6699 6.125 11.6699C6.1888 11.6699 6.26628 11.6494 6.35742 11.6084C6.44857 11.5674 6.54883 11.4876 6.6582 11.3691C6.75846 11.2507 6.861 11.1003 6.96582 10.918C7.07064 10.7357 7.16862 10.526 7.25977 10.2891C7.43294 9.85156 7.57194 9.33887 7.67676 8.75098C7.78158 8.16309 7.84766 7.5319 7.875 6.85742ZM7.68359 11.4375C8.1849 11.2826 8.64974 11.0592 9.07812 10.7676C9.50651 10.4668 9.88249 10.1182 10.2061 9.72168C10.5296 9.3252 10.7917 8.88542 10.9922 8.40234C11.1927 7.91016 11.3158 7.39518 11.3613 6.85742H8.75C8.72266 7.57747 8.65202 8.25651 8.53809 8.89453C8.42415 9.53255 8.27148 10.1022 8.08008 10.6035C8.02539 10.7493 7.96387 10.8929 7.89551 11.0342C7.82715 11.1755 7.75651 11.3099 7.68359 11.4375ZM6.125 12.5449C5.27734 12.5449 4.48438 12.3854 3.74609 12.0664C2.9987 11.7474 2.34701 11.3099 1.79102 10.7539C1.23503 10.1979 0.797526 9.54622 0.478516 8.79883C0.159505 8.06055 0 7.26758 0 6.41992C0 5.57227 0.159505 4.7793 0.478516 4.04102C0.797526 3.29362 1.23503 2.64193 1.79102 2.08594C2.34701 1.52995 2.9987 1.09245 3.74609 0.773438C4.48438 0.454427 5.27734 0.294922 6.125 0.294922C6.97266 0.294922 7.76562 0.454427 8.50391 0.773438C9.2513 1.09245 9.903 1.52995 10.459 2.08594C11.015 2.64193 11.4525 3.29362 11.7715 4.04102C12.0905 4.7793 12.25 5.57227 12.25 6.41992C12.25 7.26758 12.0905 8.06055 11.7715 8.79883C11.4525 9.54622 11.015 10.1979 10.459 10.7539C9.903 11.3099 9.2513 11.7474 8.50391 12.0664C7.76562 12.3854 6.97266 12.5449 6.125 12.5449ZM4.56641 11.4375C4.49349 11.3099 4.42285 11.1755 4.35449 11.0342C4.28613 10.8929 4.22461 10.7493 4.16992 10.6035C3.97852 10.1022 3.82585 9.53255 3.71191 8.89453C3.59798 8.25651 3.52734 7.57747 3.5 6.85742H0.888672C0.934245 7.39518 1.05729 7.91016 1.25781 8.40234C1.45833 8.88542 1.72038 9.3252 2.04395 9.72168C2.36751 10.1182 2.74349 10.4668 3.17188 10.7676C3.60026 11.0592 4.0651 11.2826 4.56641 11.4375ZM0.875 6.41992V6.43359V6.40625V6.41992Z"
+                                                    fill="#BCCBD6" />
+                                            </svg>
+                                        </span>
+                                        <p class="mb-0 me-5 ff-karla fw-300 fs-15 footer-color">www.cardinal.co</p>
+                                    </a>
+                                    <a href="" class="d-flex align-items-center gap-3">
+                                        <span class="mb-2">
+                                            <svg width="13" height="9" viewBox="0 0 13 9" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M0.4375 0.154785H11.8125L12.25 0.592285V8.46729L11.8125 8.90479H0.4375L0 8.46729V0.592285L0.4375 0.154785ZM0.875 1.48096V8.02979H11.375V1.48096L6.39844 5.30908H5.85156L0.875 1.48096ZM10.5273 1.02979H1.72266L6.125 4.42041L10.5273 1.02979Z"
+                                                    fill="#BCCBD6" />
+                                            </svg>
+                                        </span>
+                                        <p class="mb-0 me-5 ff-karla fw-300 fs-15 footer-color">hello@cardinals.cc</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="d-flex align-items-center justify-content-between mt-5 pb-4">
+                    <div>
+                        <p class="mb-0 ff-inter fw-500 fs-13 light-white-color">Aleph Zero Foundation © 2018-2023,
+                            design
+                            and
+                            development by
+                            Cardinal</p>
+                    </div>
+                    <div class="d-flex align-items-center gap-4">
+                        <p class="mb-0 ff-inter fw-500 fs-13 footer-color cursor-pointer">Privacy Policy</p>
+                        <p class="mb-0 ff-inter fw-500 fs-13 footer-color cursor-pointer">Cookies Policy</p>
+                    </div>
+                </div>
+
+            </div>
+        </footer>
+
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"
+        integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+        integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./assets/js/style.js"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+        once: true;
+    </script>
+</body>
+
+</html>
