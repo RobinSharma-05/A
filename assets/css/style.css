@@ -161,6 +161,7 @@ nav {
     color: #00CCAB;
     padding: 12px 23px 12px 23px;
     border-radius: 48px;
+    transition: all 300ms linear;
 }
 
 .btn-3:hover {
