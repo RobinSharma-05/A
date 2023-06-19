@@ -234,6 +234,7 @@ nav {
     border: 1px solid #1B2B38 !important;
     border-radius: 2px;
     cursor: pointer;
+    transition: all 300ms linear;
 }
 
 .card:hover {
@@ -257,6 +258,7 @@ nav {
     border-style: solid;
     border-color: #1B2B38;
     border-bottom: 3px solid #00CCAB;
+    transition: all 300ms linear;
 }
 
 .last-section-card:hover {
@@ -266,6 +268,8 @@ nav {
 .last-card {
     border: 1px solid #1B2B38;
     border-radius: 2px;
+    transition: all 300ms linear;
+
 }
 
 .last-card:hover {
